@@ -18,10 +18,9 @@ body
   background-color: white;
   height: 100vh;
 }
-.SectionFour
-{
-  background-color: #b59972;
-  height: 100vh;
+.SectionFour {
+    /*background-color: #b59972;*/
+    height: 100vh;
 }
 .SectionFive
 {
@@ -89,4 +88,29 @@ body
 
 }
 
+.img-responsive 
+{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.img-box  
+{
+    position: relative;
+}
+    .img-box p {
+        position: absolute;
+        top: 60%;
+        left: 7%;
+        font-size:150%;
+    }
+
+
+.img-box h1
+{
+    position:absolute;
+    top:50%;
+    left:5%;
+
+}
 /* Section Two Style End */
