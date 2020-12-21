@@ -4,31 +4,58 @@ body
 }
 .SectionOne
 {
-  background-color: #b59972;
+  background-color: white;
   height: 100vh;
 }
 .SectionTwo
 {
-  background-color: white;
+  background-color: #b59972;
   height: 100vh;
 }
 .SectionThree
 {
-  background-color: #b59972;
+  background-color: white;
   height: 100vh;
 }
 .SectionFour
 {
-  background-color: white;
+  background-color: #b59972;
   height: 100vh;
 }
 .SectionFive
 {
-  background-color: #b59972;
+  background-color: white;
   height: 100vh;
 }
 .SectionSix
 {
-  background-color: white;
+  background-color: #b59972;
   height: 100vh;
+}
+
+.NavbarStyle
+{
+  position: absolute;
+  z-index: 20;
+}
+
+.HeaderLeftColumnStyle
+{
+  width: 100%;
+  height: 100%;
+}
+
+.HeaderVectorStyle
+{
+  width:80%;
+  margin-right:20%;
+}
+
+.HeaderTitleStyle
+{
+  padding-top: 20%;
+  padding-left: 20%;
+  width: 80%;
+  font-size: 70px;
+  color: #b59972;
 }
