@@ -4,12 +4,13 @@ body
 }
 .SectionOne
 {
-  background-color: white;
+   background-color: white;
   height: 100vh;
 }
 .SectionTwo
 {
-  background-color: #b59972;
+  /* background-color: #b59972; */
+  background-color: silver;
   height: 100vh;
 }
 .SectionThree
@@ -59,3 +60,33 @@ body
   font-size: 70px;
   color: #b59972;
 }
+
+/* Section Two Style Start : */
+
+.ServicesMainTitle
+{
+
+  color: #b59972;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+.ServicesSections
+{
+
+  background-color: pink;
+  width: 200px !important;
+  height: 500px !important;
+
+}
+
+.ServicesImg
+{
+
+}
+
+/* Section Two Style End */
