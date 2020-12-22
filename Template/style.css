@@ -117,7 +117,8 @@ body
 }
 /* Section Two Style End */
 /* Section Three Style Start */
-.img-responsive
+
+  .img-responsive
 {
     display: block;
     max-width: 100%;
@@ -142,4 +143,19 @@ body
     left:5%;
 
 }
-/* Section Three Style Start */
+
+/* Section Three Style End */
+
+/* Section four Style Start */
+.contact-image-style
+{
+
+  background-image: url("assets/img/contact-image.jpg");
+  background-color: pink;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* Section four Style End */
