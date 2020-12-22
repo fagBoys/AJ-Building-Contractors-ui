@@ -1,6 +1,7 @@
 body
 {
   margin: auto;
+
 }
 .SectionOne
 {
@@ -71,6 +72,7 @@ body
   margin-right: auto;
   text-align: center;
   padding-top: 50px;
+  padding-bottom: : 50px;
 
 }
 
@@ -87,14 +89,41 @@ body
 {
 
 }
+.card-Style
+{
 
-.img-responsive 
+    width: 14rem !important;
+    margin: auto!important;
+    padding:0 !important;
+    border: 3px solid #B59972 !important;
+    border-radius: 5px !important;
+
+}
+
+
+
+.card-title-style
+{
+    padding-top: 5px;
+    padding-left: 12px;
+    color: #B59972;
+}
+
+.card-img-top-style
+{
+
+  padding: 1px;
+
+}
+/* Section Two Style End */
+/* Section Three Style Start */
+.img-responsive
 {
     display: block;
     max-width: 100%;
     height: auto;
 }
-.img-box  
+.img-box
 {
     position: relative;
 }
@@ -113,4 +142,4 @@ body
     left:5%;
 
 }
-/* Section Two Style End */
+/* Section Three Style Start */
