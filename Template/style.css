@@ -6,7 +6,7 @@ body
 .SectionOne
 {
    background-color: white;
-  height: 100vh;
+   height: 100vh;
 }
 .SectionTwo
 {
@@ -17,22 +17,42 @@ body
 .SectionThree
 {
   background-color: white;
-  height: 100vh;
+  height: 60vh;
+  background-image: url('assets/img/empty-living-room-with-blue-sofa-plants-and-table-on-empty-white-wall-background-3d-rendering.jpg');
+  background-position: bottom;
+  background-size: cover;
+
 }
+
+.S3-Text-Column-Style
+{
+  padding: 10%;
+}
+
+.S3-Text-Title-Style
+{
+  font-size: 68px;
+  font-weight: bold;
+  color: #bcafa6;
+}
+
+.S3-Text-Style
+{
+  font-size: 42px;
+  width: 500px;
+  color: #7e7066;
+}
+
 .SectionFour {
     /*background-color: #b59972;*/
     height: 100vh;
 }
 .SectionFive
 {
-  background-color: white;
-  height: 100vh;
-}
-.SectionSix
-{
   background-color: #b59972;
   height: 100vh;
 }
+
 
 .NavbarStyle
 {
@@ -40,24 +60,35 @@ body
   z-index: 20;
 }
 
-.HeaderLeftColumnStyle
+.S1-Right-Column-Style
 {
-  width: 100%;
-  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+  margin: 0;
 }
 
-.HeaderVectorStyle
+.S1-Vector-Style
 {
-  width:80%;
-  margin-right:20%;
+  width: 90%;
+
 }
 
-.HeaderTitleStyle
+.S1-Left-Column-Style
 {
-  padding-top: 20%;
-  padding-left: 20%;
-  width: 80%;
+  text-align: left;
+  height: auto;
+}
+
+.S1-Title-Style
+{
   font-size: 70px;
+  color: #b59972;
+}
+
+.S1-Text-Style
+{
+  font-size: 20px;
   color: #b59972;
 }
 
@@ -118,6 +149,11 @@ body
 /* Section Two Style End */
 /* Section Three Style Start */
 
+.SectionThreeStyle
+{
+  background-image: url('assets/img/empty-living-room-with-blue-sofa-plants-and-table-on-empty-white-wall-background-3d-rendering.jpg');
+}
+
   .img-responsive
 {
     display: block;
@@ -159,3 +195,35 @@ body
   position: relative;
 }
 /* Section four Style End */
+
+/* Section six */
+
+.SectionSix
+{
+  background-color: white;
+  height: 60vh;
+}
+
+.S6-Left-List-Style
+{
+  margin: auto;
+}
+
+.S6-Title-Style
+{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: #B59972;
+}
+
+.S6-Right-Inside-List-Style
+{
+  line-height: 0.5;
+}
+
+.S6-Right-Icons-Style
+{
+  float: left;
+}
+
+/* Section six */
