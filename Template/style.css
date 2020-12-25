@@ -45,7 +45,7 @@ body
 
 .SectionFour {
     /*background-color: #b59972;*/
-    height: 100vh;
+    height: auto;
 }
 .SectionFive
 {
@@ -187,7 +187,7 @@ body
 {
 
   background-image: url("assets/img/contact-image.jpg");
-  background-color: pink;
+  background-color: #b59972;
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -202,6 +202,44 @@ body
 
 }
 
+.ContactUsBtn
+{
+  float: center;
+  margin: 0 auto!important;
+  text-align: center;
+  background-color: #B59972!important;
+  color: white;
+  width: 120px;
+  height: 40px;
+  margin-top: 25px!important;
+  border: none;
+  border-color: #B59972!important;
+  border-radius: 4px;
+
+}
+
+.ContactUsInputStyle:hover
+{
+border-style: solid;
+border-color: #00ff12 !important;
+border-width: 1px;
+}
+.ContactUsBtn:hover,active,focus
+{
+  float: center;
+  margin: 0 auto!important;
+  text-align: center;
+  background-color: #B59972!important;
+  color: white;
+  width: 120px;
+  height: 40px;
+  border-style: solid;
+  margin-top: 25px!important;
+  border-width: 1px;
+  border-color: #00ff12 !important;
+  border-radius: 4px;
+
+}
 
 /* Section four Style End */
 
