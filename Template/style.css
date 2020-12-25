@@ -47,11 +47,7 @@ body
     /*background-color: #b59972;*/
     height: auto;
 }
-.SectionFive
-{
-  background-color: #b59972;
-  height: 100vh;
-}
+
 
 
 .NavbarStyle
@@ -242,6 +238,40 @@ border-width: 1px;
 }
 
 /* Section four Style End */
+
+/* Section five style start*/
+
+.SectionFive
+{
+  background-color: #b59972;
+  height: 50vh;
+  margin: auto;
+}
+
+.S5-Image-Box-Style
+{
+  width: 20%;
+  height: 250px;
+  background-color: #7e7066;
+  float: left;
+
+}
+
+.S5-Rectangle-Style
+{
+  width: 80%;
+  height: 250px;
+  background-color: #e9dfd2;
+  padding: 60px;
+  float: left;
+}
+
+.S5-Text-Style
+{
+  font-size: 24px;
+}
+
+/* Section five style end */
 
 /* Section six */
 
