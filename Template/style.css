@@ -583,3 +583,34 @@ padding-bottom: 15px;
   margin-top: 20vh;
   color: #60543a;
 }
+
+/* AboutUsPage */
+.ImgTest
+{
+  background-image: url("assets/img/About.jpg");
+  background-size: cover;
+  background-position: center;
+  height:50vh;
+}
+
+.SectionA
+{
+background-color: #B59972;
+margin: auto;
+height: 100vh;
+margin: 0 auto;
+
+}
+.HeadH1
+{
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+}
+.ContentA
+{
+  background-color: white;
+  margin: 5% 20%;
+  height: 50vh
+
+}
