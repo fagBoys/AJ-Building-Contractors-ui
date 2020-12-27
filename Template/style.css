@@ -137,21 +137,20 @@ body
 {
   text-align: center;
   vertical-align: middle;
-  margin: auto;
+
 
 }
 
 .S1-Vector-Style
 {
-  width: 90%;
-  margin-left: 5%;
+  width: 80%;
+  margin: 10%
 }
 
 .S1-Left-Column-Style
 {
   text-align: left;
-  height: 300px;
-  margin: 15%;
+  margin: 10%;
 }
 
 .S1-Title-Style
@@ -468,7 +467,7 @@ border-width: 1px;
 section.section-style-footer
 {
 
-  background-color: auto;
+  background-color: #ededed;
   text-align: center;
   margin: auto;
   width: 100%;
@@ -570,3 +569,17 @@ padding-bottom: 15px;
 }
 
 /* Section six */
+
+.Layout-Header-Image
+{
+  background-image: url("assets/img/construction-header.jpg");
+  background-size: cover;
+  background-position: center;
+  height:40vh;
+}
+
+.Layout-Header-Text
+{
+  margin-top: 20vh;
+  color: #60543a;
+}
