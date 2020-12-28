@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+<head>
     <meta charset="utf-8">
     <title>AJ Building Contractors LTD</title>
     <link rel="stylesheet" href="style.css">
@@ -12,9 +12,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="assets/js/main/main.js"></script>
-
-
-  </head>
+    <script>
+        $(document).ready(function () {
+           
+            $("#image").fadeIn(3000);
+            $("#panel").slideDown("slow");
+        });
+    </script>
+</head>
   <body style="position:relative">
 
     <div class="NavbarStyle">
@@ -50,7 +55,7 @@
 
     <!--Header Start-->
 <div class="container">
-    <div class="row align-items-center" style=" min-height:100%; height: 100vh; overflow:auto;">
+    <div id="panel" class="row align-items-center" style=" min-height:100%; height: 100vh; overflow:auto;">
 
 
         <div class="row">
@@ -88,7 +93,7 @@
             <!-- img01 -->
             <div class="col-lg-3">
               <div class="card card-Style shadow-sm" style="margin-bottom:10%;">
-                <img src="assets\img\smiling-adult-sanitary-technician-with-wrench.jpg" class="card-img-top" alt="...">
+                <img id="image" src="assets\img\smiling-adult-sanitary-technician-with-wrench.jpg" class="card-img-top" alt="...">
                 <h5 class="card-title card-title-style" style="">Plumbing/Leaking</h5>
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -98,7 +103,7 @@
             <!-- img02 -->
             <div class="col-lg-3">
               <div class="card card-Style shadow-sm" style="">
-                <img src="assets\img\smiling-adult-sanitary-technician-with-wrench.jpg" class="card-img-top" alt="...">
+                <img id="image" src="assets\img\smiling-adult-sanitary-technician-with-wrench.jpg" class="card-img-top" alt="...">
                 <h5 class="card-title card-title-style" style="">Plumbing/Leaking</h5>
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -108,7 +113,7 @@
             <!-- img03 -->
             <div class="col-lg-3">
               <div class="card card-Style shadow-sm" style="">
-                <img src="assets\img\smiling-adult-sanitary-technician-with-wrench.jpg" class="card-img-top" alt="...">
+                <img  id="image" src="assets\img\smiling-adult-sanitary-technician-with-wrench.jpg" class="card-img-top" alt="...">
                 <h5 class="card-title card-title-style" style="">Plumbing/Leaking</h5>
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -118,7 +123,7 @@
             <!-- img04 -->
             <div class="col-lg-3">
               <div class="card card-Style shadow-sm" style="">
-                <img src="assets\img\smiling-adult-sanitary-technician-with-wrench.jpg" class="card-img-top" alt="...">
+                <img id="image" src="assets\img\smiling-adult-sanitary-technician-with-wrench.jpg" class="card-img-top" alt="...">
                 <h5 class="card-title card-title-style" style="">Plumbing/Leaking</h5>
                 <div class="card-body">
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
