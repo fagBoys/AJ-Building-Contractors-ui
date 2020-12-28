@@ -582,17 +582,20 @@ padding-bottom: 15px;
 /* AboutUsPage */
 .ImgTest
 {
+
   background-image: url("assets/img/About.jpg");
   background-size: cover;
   background-position: center;
-  height:50vh;
+  height:60vh;
+
+
 }
 
 .SectionA
 {
-background-color: #ad974f;
+background-color: white;
 margin: auto;
-height: 100vh;
+height: auto;
 margin: 0 auto;
 
 }
@@ -606,9 +609,10 @@ margin: 0 auto;
 {
   background-color: white;
   margin: 5% 20%;
-  height: 50vh
+  height: auto;
 
 }
+
 
 .btn-primary {
     color: #fff !important;
@@ -619,7 +623,7 @@ margin: 0 auto;
 .btn
 {
 padding: 0.375rem 2.75rem !important;
-} 
+}
 
 .btn-primary:hover {
     color: #fff !important;
