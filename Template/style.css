@@ -5,9 +5,16 @@
 
 body
 {
-  margin: auto;
   font-family: CenturyGothic;
+  margin: auto;
 }
+
+.Text-Style
+{
+    font-size: 22px;
+    text-align: justify;
+}
+
 .SectionOne
 {
    background-color: white;
@@ -16,8 +23,8 @@ body
 }
 .SectionTwo
 {
-  /* background-color: #b59972; */
-  background-color: #b59972;
+  /* background-color: #ad974f; */
+  background-color: #ad974f;
   height: 100%;
 }
 .SectionThree
@@ -57,7 +64,7 @@ body
 }
 
 .SectionFour {
-    /*background-color: #b59972;*/
+    /*background-color: #ad974f;*/
     height: 100%;
 }
 
@@ -156,14 +163,14 @@ body
 .S1-Title-Style
 {
   font-size: 70px;
-  color: #b59972;
+  color: #ad974f;
   line-height: 1;
 }
 
 .S1-Text-Style
 {
   font-size: 20px;
-  color: #b59972;
+  color: #ad974f;
   margin-top: 30px;
 }
 
@@ -202,7 +209,7 @@ body
     margin-left: 10%;
     margin-bottom: 20%;
     padding:5px;
-    border: 3px solid #B59972 !important;
+    border: 3px solid #ad974f !important;
     border-radius: 5px !important;
 
 }
@@ -213,7 +220,7 @@ body
 {
     padding-top: 5px;
     padding-left: 12px;
-    color: #B59972;
+    color: #ad974f;
 }
 
 .card-img-top-style
@@ -273,13 +280,13 @@ body
   float: center;
   margin: 0 auto!important;
   text-align: center;
-  background-color: #B59972!important;
+  background-color: #ad974f!important;
   color: white;
   width: 120px;
   height: 40px;
   margin-top: 25px!important;
   border: none;
-  border-color: #B59972!important;
+  border-color: #ad974f!important;
   border-radius: 4px;
 
 }
@@ -295,7 +302,7 @@ border-width: 1px;
   float: center;
   margin: 0 auto!important;
   text-align: center;
-  background-color: #B59972!important;
+  background-color: #ad974f!important;
   color: white;
   width: 120px;
   height: 40px;
@@ -412,7 +419,7 @@ border-width: 1px;
 
 .SectionFive
 {
-  background-color: #b59972;
+  background-color: #ad974f;
   height: 100%;
   margin: auto;
 }
@@ -519,7 +526,7 @@ h3.footer-title-style
 
 font-weight: bold;
 text-align: left;
-color: #b59972;
+color: #ad974f;
 margin-left: 20%;
 }
 
@@ -544,7 +551,7 @@ padding-bottom: 15px;
   display: inline;
   margin-top:2.8vh;
   margin-left: 0.5vh;
-  color: #b59972;
+  color: #ad974f;
   font-size:2vh;
 }
 
@@ -553,7 +560,7 @@ padding-bottom: 15px;
   display: inline;
   font-weight: bold;
   margin-top:1vh;
-  color: #b59972;
+  color: #ad974f;
 }
 
 /* Section six */
@@ -583,7 +590,7 @@ padding-bottom: 15px;
 
 .SectionA
 {
-background-color: #B59972;
+background-color: #ad974f;
 margin: auto;
 height: 100vh;
 margin: 0 auto;
