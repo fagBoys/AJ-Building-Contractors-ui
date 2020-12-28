@@ -361,6 +361,7 @@ border-width: 1px;
 
 .contact-input-style
 {
+
   float:left;
   width: 100%;
   height: 50px;
@@ -373,6 +374,22 @@ border-width: 1px;
 }
 
 .contact-input-style:focus
+{
+
+  float:left;
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  margin-top: 3vh;
+  outline-style: none;
+  border-width: 1px;
+  border-radius: 3px;
+  border-style: solid;
+  border-color: #00ff12;
+}
+.contact-input-style:after
+.contact-input-style:focus + label,
+.contact-input-style + label:hover
 {
   float:left;
   width: 100%;
@@ -592,7 +609,7 @@ padding-bottom: 15px;
   color: auto;
 }
 
-/* AboutUsPage */
+/* AboutUsPage Start*/
 .ImgTest
 {
 
@@ -626,6 +643,10 @@ margin: 0 auto;
 
 }
 
+/* AboutUsPage End*/
+
+
+
 
 .btn-primary {
     color: #fff !important;
@@ -648,3 +669,15 @@ padding: 0.375rem 2.75rem !important;
 {
 filter: grayscale(50%);
 }
+
+
+/* Review page style Start */
+.PlaceForForm
+{
+
+background-color: red;
+height:80vh;
+margin: 5% 15%;
+
+}
+/* Review page style Start */
