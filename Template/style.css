@@ -609,3 +609,20 @@ margin: 0 auto;
   height: 50vh
 
 }
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #ad974f !important;
+    border-color: #625321 !important;
+}
+
+.btn
+{
+padding: 0.375rem 2.75rem !important;
+} 
+
+.btn-primary:hover {
+    color: #fff !important;
+    background-color: #786225 !important;
+    border-color: #403100 !important;
+}
