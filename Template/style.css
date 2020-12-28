@@ -15,6 +15,19 @@ body
     text-align: justify;
 }
 
+.Title-Style
+{
+    margin: 20px;
+    color: #ad974f;
+}
+
+.Title-Style :hover
+{
+    margin: 20px;
+    color: #ad974f;
+}
+
+
 .SectionOne
 {
    background-color: white;
@@ -200,7 +213,7 @@ body
 
 .ServicesImg
 {
-
+  width:100%;
 }
 .card-Style
 {
