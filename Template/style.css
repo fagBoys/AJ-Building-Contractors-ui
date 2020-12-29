@@ -720,10 +720,31 @@ margin: 5% 15%;
 
 }
 
+
+.btn-primarys {
+    color: #fff !important;
+    background-color: #ad974f !important;
+    border-color: #ad974f !important;
+}
+
+.btns
+{
+padding: 0.375rem 7.75rem !important;
+margin-top: 3vh;
+}
+
+.btn-primarys:hover {
+    color: #fff !important;
+    background-color: #786225 !important;
+    border-color: #786225 !important;
+}
+/* Review page style Start */
+
+/* services page style Start */
 .img-services:hover
 {
 transition: transform 1s !important;
 /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;*/
 transform: scale(1.1);
 }
-/* Review page style Start */
+/* services page style Start */
