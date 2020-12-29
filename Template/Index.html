@@ -11,14 +11,21 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="assets/js/main/main.js"></script>
+
     <script>
         $(document).ready(function () {
 
+            // $("#Header").slideDown("slow");
             $("#image").fadeIn(3000);
-            $("#Header").slideDown("slow");
+            $("#Header").fadeIn(2000);
+            $("#LeftText").fadeIn(1000);
+
         });
     </script>
+
 </head>
   <body style="position:relative">
 
@@ -55,19 +62,21 @@
 
     <!--Header Start-->
 <div class="container">
-    <div id="Header" class="row align-items-center" style=" min-height:100%; height: 100vh; overflow:auto;">
+    <div class="row align-items-center" style=" min-height:100%; height: 100vh; overflow:auto;">
 
 
         <div class="row">
 
-          <div class="col-lg-6" style="text-align: center;">
+          <div class="col-lg-6" id="LeftText" style="text-align: center;">
             <div class="S1-Left-Column-Style">
-              <h1 class="S1-Title-Style">Strategies of a construction site management</h1>
-              <p class="S1-Text-Style">Here we can provide peace for your house and discover your building issues.</p>
-              <button type="button" class="btn btn-outline-warning">More about us</button>
+              <div id="LeftText">
+                <h1 class="S1-Title-Style">Strategies of a construction site management</h1>
+                <p class="S1-Text-Style">Here we can provide peace for your house and discover your building issues.</p>
+                <button type="button" class="btn btn-outline-warning">More about us</button>
+              </div>
             </div>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6" id="Header" style="display:none;">
             <img src="assets/img/header-vector.png" class="S1-Vector-Style" alt="">
           </div>
 
