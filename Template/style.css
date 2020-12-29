@@ -689,9 +689,15 @@ padding: 0.375rem 2.75rem !important;
     border-color: #786225 !important;
 }
 
+.card-img-top
+{
+filter: grayscale(60%);
+}
+
 .card-img-top:hover
 {
-filter: grayscale(50%);
+transform: scale(1.1);
+filter: grayscale(0%);
 }
 
 
