@@ -738,6 +738,11 @@ margin-top: 3vh;
     background-color: #786225 !important;
     border-color: #786225 !important;
 }
+
+.contact-input-style:hover
+{
+cursor: pointer;
+}
 /* Review page style Start */
 
 /* services page style Start */
