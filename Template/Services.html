@@ -11,7 +11,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="assets/js/main/main.js"></script>
+
+    <script>
+
+      $("#img").fadeIn(3500);
+      
+    </script>
+
   </head>
   <body>
 
@@ -62,12 +71,14 @@
 <!--Header End-->
 
 <!-- Body Start -->
+<button>Start Animation</button>
+<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
 
 <div class="container Layout-Body-Style">
 
   <div class="row">
-    <div class="col-lg-4 img-services">
-      <img src="assets/img/services/construction.png" style="width:100%;" alt="">
+    <div class="col-lg-4 img-services" id="img">
+      <img src="assets/img/services/construction.png"  style="width:100%; display:none;" alt="">
     </div>
     <div class="col-lg-8" style="padding:50px;">
       <h3 class="Title-Style">Construction</h3>

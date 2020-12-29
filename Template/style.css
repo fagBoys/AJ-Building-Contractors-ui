@@ -767,6 +767,11 @@ cursor: pointer;
 /* Review page style Start */
 
 /* services page style Start */
+.img-services
+{
+  display: none ;
+}
+
 .img-services:hover
 {
 transition: transform 1s !important;
