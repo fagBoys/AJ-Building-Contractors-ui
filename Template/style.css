@@ -1,11 +1,11 @@
 @font-face {
   font-family: CenturyGothic;
-  src: url("assets/fonts/Century_Gothic.ttf");
+  src: url('assets/fonts/Century_Gothic.ttf');
 }
 
 body
 {
-  font-family: CenturyGothic;
+  font-family: CenturyGothic !important;
   margin: auto;
 }
 
@@ -180,6 +180,7 @@ body
   font-size: 70px;
   color: #ad974f;
   line-height: 1;
+  font-weight: bold;
   /* display: none; */
 }
 
@@ -709,6 +710,13 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;
 transform: scale(1.1);
 }
 
+.card:not(:hover)
+{
+transition: transform 1s !important;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;
+transform: scale(1);
+}
+
 
 /* Review page style Start */
 .PlaceForForm
@@ -767,18 +775,48 @@ cursor: pointer;
 /* Review page style Start */
 
 /* services page style Start */
-.img-services
+.img-services-left
 {
   position:relative;
+  left: -100px;
   display:none
 }
 
-.img-services:hover
+.img-services-left:hover
 {
 transition: transform 1s !important;
 /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;*/
 transform: scale(1.1);
 }
+
+.img-services-left:not( :hover )
+{
+transition: transform 1s !important;
+/*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;*/
+transform: scale(1);
+}
+
+.img-services-right
+{
+  position:relative;
+  right: -100px;
+  display:none
+}
+
+.img-services-right:hover
+{
+transition: transform 1s !important;
+/*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;*/
+transform: scale(1.1);
+}
+
+.img-services-right:not( :hover )
+{
+transition: transform 1s !important;
+/*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;*/
+transform: scale(1);
+}
+
 /* services page style Start */
 
 .button {

@@ -19,10 +19,14 @@
 
     $(document).ready(function(){
 
-        $("#ServicesImg1").fadeIn(2000);
-        $("#ServicesImg2").fadeIn(3000);
-        $("#ServicesImg3").fadeIn(2000);
-        $("#ServicesImg4").fadeIn(3000);
+        $("#ServicesImg1").fadeIn(300);
+        $("#ServicesImg1").animate({left: '0px'});
+        $("#ServicesImg2").fadeIn(300);
+        $("#ServicesImg2").animate({right: '0px'});
+        $("#ServicesImg3").fadeIn(300);
+        $("#ServicesImg3").animate({left: '0px'});
+        $("#ServicesImg4").fadeIn(300);
+        $("#ServicesImg4").animate({right: '0px'});
     });
 
     </script>
@@ -81,7 +85,7 @@
 <div class="container Layout-Body-Style">
 
   <div class="row">
-    <div class="col-lg-4 img-services" id="ServicesImg1">
+    <div class="col-lg-4 img-services-left" id="ServicesImg1">
       <img src="assets/img/services/construction.png"  style="width:100%;" alt="">
     </div>
     <div class="col-lg-8" style="padding:50px;">
@@ -95,13 +99,13 @@
       <h3 class="Title-Style">Plumbing / Leaking</h3>
       <p class="Text-Style">Our main goal is to ensure our customers are provided with no stress emergency plumbing services.we are able to attend to all your emergency plumbing needs, whether it be day or night; and as fast as possible. We are always here to help.</p>
     </div>
-    <div class="col-lg-4 img-services" id="ServicesImg2">
+    <div class="col-lg-4 img-services-right" id="ServicesImg2">
       <img src="assets/img/services/Drainge.png" style="width:100%;" alt="">
     </div>
   </div>
 
   <div class="row">
-    <div class="col-lg-4 img-services" id="ServicesImg3">
+    <div class="col-lg-4 img-services-left" id="ServicesImg3">
       <img src="assets/img/services/heating.png" style="width:100%;" alt="">
     </div>
     <div class="col-lg-8" style="padding:50px;">
@@ -115,7 +119,7 @@
       <h3 class="Title-Style">Drainge</h3>
       <p class="Text-Style">Drainage is the artificial removal of water, both surface and sub-surface. Drainage is often a major element of civil engineering and construction projects and is necessary to avoid flooding and other damage. We can halp to drainge your building or office.</p>
     </div>
-    <div class="col-lg-4 img-services" id="ServicesImg4">
+    <div class="col-lg-4 img-services-right" id="ServicesImg4">
       <img src="assets/img/services/Plumbing.png" style="width:100%;" alt="">
     </div>
   </div>
