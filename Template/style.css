@@ -885,3 +885,18 @@ transform: scale(1);
             opacity: 1;
             right: 0;
         }
+        /* Map Start */
+        .maparea {
+        	height: 600px;
+          margin-left: 10%;
+          margin-right: 10%;
+        }
+
+        .maparea iframe {
+        	border: medium none;
+        	-webkit-filter: grayscale(100%);
+        	filter: grayscale(100%);
+        	height: 70%;
+        	width: 100%;
+        }
+        /* Map End */

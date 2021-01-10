@@ -63,7 +63,7 @@
 
 <!-- Body Start -->
 
-<div class="container Layout-Body-Style">
+<div class="container Layout-Body-Style" style="margin-bottom:0px !important;padding-bottom:4% !important;">
 
 
 
@@ -140,6 +140,49 @@
 
       </div> -->
 
+  </div>
+  <div class="container">
+      <div class="row" >
+
+
+
+          <div class="card mb-0 card-Style" style="margin-top:0px !important;margin-bottom:4% !important; padding-left:15% !important;padding-right:15% !important">
+              <div class="row g-0 align-items-center">
+                  <div class="col-md-3" style="">
+                      @{
+                          var base64 = Convert.ToBase64String(Model.Picture);
+                          var RevPic = string.Format("data:image/jpg;base64,{0}",base64);
+                      }
+                      <img src="@RevPic" width="180px" height="180px" class="" style="margin: auto; border: 10px solid #625321;" alt="@Model.Name">
+
+
+                  </div>
+                  <div class="col-md-9" style="padding-left:10%; padding-right:20%;">
+                      <div class="card-body">
+                          <h4 class="card-title review-title">@Model.Name</h4>
+                          <p class="card-text">@Model.Message</p>
+                          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!--
+          <div class="col-lg-2">
+
+              <img src="assets/img/reviewpic.jpg" alt="">
+
+          </div>
+          <div class="col-lg-10">
+            <div class="S5-Rectangle-Style">
+              <p class="S5-Text-Style">On a personal note, I’d just like to say that myself and everyone here at AAR ipressed with the way AJ Building Contractors Ltd act as a freight company.</p>
+              <h2>Lisa</h2>
+            </div>
+          </div> -->
+
+
+
+      </div>
   </div>
 </div>
 
