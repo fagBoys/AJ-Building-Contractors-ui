@@ -12,13 +12,19 @@ body
 .social-style
 {
   margin: 10px;
+  
 }
+    .social-style2
+    {
+        height:auto;
+        width:20%;
+        
+    }
 
-.Text-Style
-{
-    font-size: 22px;
-    text-align: justify;
-}
+    .Text-Style {
+        font-size: 22px;
+        text-align: justify;
+    }
 
 .Title-Style
 {
