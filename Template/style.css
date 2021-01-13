@@ -12,13 +12,13 @@ body
 .social-style
 {
   margin: 10px;
-  
+
 }
     .social-style2
     {
         height:auto;
         width:20%;
-        
+
     }
 
     .Text-Style {
@@ -48,14 +48,15 @@ body
 }
 .SectionTwo
 {
-  /* background-color: #ad974f; */
+
   background-color: #dacda4;
-  height: 100%;
+  height: auto;
+
 }
 .SectionThree
 {
   background-color: white;
-  height: 60vh;
+  height: auto;
   background-image: url('assets/img/empty-living-room-with-blue-sofa-plants-and-table-on-empty-white-wall-background-3d-rendering.jpg');
   background-position: bottom;
   background-size: cover;
@@ -226,6 +227,7 @@ body
   width: 200px !important;
   height: 500px !important;
 
+
 }
 
 .ServicesImg
@@ -239,6 +241,7 @@ body
   padding:0 !important;
   border-radius:0 !important;
   margin-bottom:10%;
+  text-align: left;
 
     /* width: 80%;
     margin-left: 10%;
@@ -257,6 +260,11 @@ body
     padding-top: 5px;
     padding-left: 12px;
     color: #ad974f;
+}
+
+.card-body
+{
+  font-size: 15px;
 }
 
 .card-img-top-style
@@ -906,3 +914,54 @@ transform: scale(1);
         	width: 100%;
         }
         /* Map End */
+
+        /* Slider Start */
+
+        .panel {
+    border: none;
+    border-color: pink;
+    height:200px;
+    margin: 10px;
+    font-size: 72px;
+    text-align: center;
+    list-style: circle;
+
+
+
+  }
+.slick-dots{
+font-size:40px !important;
+position: absolute;
+bottom: 20px;
+display: block;
+width: 100%;
+padding: 10;
+margin: 0;
+list-style: none;
+text-align: center;
+color: red !important;
+font-family: 'slick';
+}
+.slick-dots li.slick-active button:before{
+font-size:50px;
+color:red !important;
+font-family: 'slick';
+
+
+}
+
+
+    .slick-dots li button::before {
+        font-size: 50px !important;
+        color: black !important;
+        opacity: 0.7;
+
+      }
+
+      .slick-dots li.slick-active button::before {
+        color: #786225 !important;
+        opacity: 1;
+
+      }
+
+        /* slider End */
